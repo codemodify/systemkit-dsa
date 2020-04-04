@@ -17,4 +17,35 @@
 ![](https://img.shields.io/github/watchers/codemodify/systemkit-dsa?style=flat-square)
 ![](https://img.shields.io/github/forks/codemodify/systemkit-dsa?style=flat-square)
 
-### The missing Go lang extended structures & algorithms
+#### The missing Go lang extended structures & algorithms
+#### Supported: Linux, Raspberry Pi, FreeBSD, Mac OS, Windows, Solaris
+
+# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Install
+```go
+go get github.com/codemodify/systemkit-dsa
+```
+# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) API
+
+&nbsp;																| &nbsp;
+---     															| ---
+NewRingBuffer(`in` chan []byte, `out` chan []byte) `*RingBuffer`  |
+NewRingBufferHP(bufferSize uint64) `*RingBufferHP` |
+Write(`value` []byte) |
+Read() |
+NewConcurrentMap() |
+Add(`key` interface{}) |
+Remove(`key` interface{}) |
+Contains(`key` interface{}) |
+Len() |
+Less(`i`, `j` int) |
+Swap(`i`, `j` int) |
+Push(`x` interface{}) |
+Pop() |
+Update(i`t`em *Item, `value` *interface{}, `priority` int64) |
+Dump() |
+Peek() |
+
+# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Usage
+```go
+
+```
