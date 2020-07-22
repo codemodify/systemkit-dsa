@@ -1,4 +1,4 @@
-# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Extended Go Data Structures & Algorithms
+# ![](https://fonts.gstatic.com/s/i/materialiconsoutlined/flare/v4/24px.svg) Extended Go Data Structures & Algorithms
 [![](https://img.shields.io/github/v/release/codemodify/systemkit-dsa?style=flat-square)](https://github.com/codemodify/systemkit-dsa/releases/latest)
 ![](https://img.shields.io/github/languages/code-size/codemodify/systemkit-dsa?style=flat-square)
 ![](https://img.shields.io/github/last-commit/codemodify/systemkit-dsa?style=flat-square)
